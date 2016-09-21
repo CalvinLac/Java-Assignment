@@ -20,7 +20,7 @@ public class binary
     }
 
 
-    //iterating through four_digit_array to display the digits on a new line every time. 
+    //iterating through four_digit_array to get the sum of the binary numbers 
     int i, multiplier = 1, total = 0;
     for (i = 0; i < 4; i++) {
       total = total + (four_digit_array[i] * multiplier);
