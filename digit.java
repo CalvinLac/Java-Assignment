@@ -1,7 +1,23 @@
+/*********************************************************
+* Last Name: Lac
+* First Name: Calvin
+* Student ID: 10133628
+* Course: CPSC 233
+* Tutorial Section: T04
+* Assignment: 1
+*
+*The program prompts the user to enter a four digit number.
+*It then outputs each digit of the original number on a new line. 
+*********************************************************/
+
 import java.util.Scanner;
 
 public class digit
 {
+  public static String getID() {
+    return "10133628"; // Your student ID here.
+  }
+
   public static void main(String[] args)
   {
     int four_digit_number;

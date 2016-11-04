@@ -1,7 +1,23 @@
+/*********************************************************
+* Last Name: Lac
+* First Name: Calvin
+* Student ID: 10133628
+* Course: CPSC 233
+* Tutorial Section: T04
+* Assignment: 1
+*
+*The program prompts the user to enter a binary number.
+*The program then changes the binary number to a decimal. 
+*********************************************************/
+
 import java.util.Scanner;
 
 public class binary
 {
+  public static String getID() {
+    return "10133628"; // Your student ID here.
+  }
+  
   public static void main(String[] args)
   {
     int four_digit_binary;
@@ -13,9 +29,9 @@ public class binary
 
     //Assigning the remainder digits to their respective positions within the array
     int[] four_digit_array = new int[4];
-    int n;
-    for (n = 0; n < 4; n++) {
-      four_digit_array[n] = four_digit_binary % 10;
+    int counter;
+    for (counter = 0; counter < 4; counter++) {
+      four_digit_array[counter] = four_digit_binary % 10;
       four_digit_binary = four_digit_binary / 10;
     }
 
